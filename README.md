@@ -1,0 +1,2 @@
+# DuckDns
+Update DUCKDNS Records
