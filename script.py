@@ -42,6 +42,8 @@ def main():
     token = input("Enter the token (keep this private): ")
     txt = input("Enter the txt value: ")
 
+    ip = None
+    ipv6 = None
     # Ask for optional parameters
     consent_ipv4 = input(
         "Do you want to add/update the ipv4 address? (yes/no): ").strip().lower() == 'yes'
