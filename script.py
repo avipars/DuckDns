@@ -36,7 +36,7 @@ def duckdns_url(domain, token, txt, verbose=False, clear=False, ip=None, ipv6=No
     print("For MacOS or Linux only, this also works:")
     print(f"dig txt {domain}.duckdns.org")
 
-    print("(Optional) Verify that your subdomain shows up:"
+    print("(Optional) Verify that your subdomain shows up:")
     print(f"dig @ns1.duckdns.org {domain}.duckdns.org")
 
 def main():
