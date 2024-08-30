@@ -40,10 +40,15 @@ def duckdns_url(domain, token, txt, verbose=False, clear=False, ip=None, ipv6=No
 def main():
     # Get user input
     domain = input("Enter the subdomain (without duckdns.org): ")
+    domain = domain.strip() 
+
     token = input("Enter the token (keep this private): ")
+    token = token.strip()
+    
     txt = input("Enter the txt value: ")
 
-    ip = None
+    
+    ip = None #defaults
     ipv6 = None
     # Ask for optional parameters
     consent_ipv4 = input(
